@@ -119,9 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 import os
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-          os.path.join(BASE_DIR, "static"),
+          os.path.join(BASE_DIR, 'traffic', 'static'),
 ]
 
 # Default primary key field type

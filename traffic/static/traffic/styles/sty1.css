@@ -1,23 +1,25 @@
 body {
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #121212;
+    line-height: 1.8;
+    background-color: hsl(0, 0%, 2%);
     color: #fff;
+    overflow-x: hidden;
 }
 
 header {
-    background: #000;
+    background: #0d0707;
     color: #fff;
-    padding: 0.5rem 0;  /* Reduced padding for a slimmer header */
+    padding: 0.5rem 0;  /* Increased padding for more space */
     text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
-    height: 16%;
-    z-index: 1000;
-    border-bottom: 2px solid #1e90ff;  /* Subtle border to separate header from content */
+    /* height: auto; */
+    z-index: 1100;
+    border-bottom: 3px solid #1e90ff;  /* Subtle border to separate header from content */
 }
 
 header .container {
@@ -26,6 +28,11 @@ header .container {
     align-items: center;
     width: 95%;  /* Slightly narrower width for the header content */
     margin: auto;
+}
+
+header h1 {
+    margin: 0;  /* Reset margin */
+    padding-top: 0.5rem;  /* Add padding to move heading down */
 }
 
 nav ul {
@@ -50,8 +57,8 @@ nav ul li a:hover {
 }
 
 .section {
-    padding: 4rem 0;
-    margin-top: 3.5rem;  /* Adjusted margin-top to accommodate the new header height */
+    padding: 6rem 0;
+    margin-top: 8rem;  /* Adjusted margin-top to accommodate the new header height */
 }
 
 .bg-light {
@@ -72,7 +79,7 @@ nav ul li a:hover {
 
 h1, h2 {
     color: #1e90ff;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -84,9 +91,8 @@ p {
 
 p1 {
     color: #181616;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-align: center;
-
 }
 
 .btn {
@@ -153,6 +159,6 @@ footer .container {
     transition: color 0.3s ease;
 }
 
-.social-media a:hover {
+social-media a:hover {
     color: #0056b3;
 }

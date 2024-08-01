@@ -28,5 +28,30 @@ def index(request):
 
     return render(request, 'traffic/index.html', {'traffic_data': traffic_data, 'form': form})
 
+
+def Home(request):
+    return render(request, 'traffic/home.html')
+
+
+def About(request):
+    return render(request, 'traffic/About.html')
+
+
+def project_plan(request):
+    return render(request, 'traffic/project_plan.html')
+
+
+def data_tech(request):
+    return render(request, 'traffic/data_tech.html')
+
+
+def update(request):
+    return render(request, 'traffic/update.html')
+
+
+def contact(request):
+    return render(request, 'traffic/contact.html')
+
+
 def contact_success(request):
     return render(request, 'traffic/contact_success.html')
