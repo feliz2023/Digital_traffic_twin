@@ -1,0 +1,177 @@
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    background-color: hsl(0, 0%, 2%);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    background: #0d0707;
+    color: #fff;
+    padding: 0.5rem 0;  /* Increased padding for more space */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* height: auto; */
+    z-index: 1100;
+    border-bottom: 3px solid #1e90ff;  /* Subtle border to separate header from content */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;  /* Slightly narrower width for the header content */
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;  /* Reset margin */
+    padding-top: 0.5rem;  /* Add padding to move heading down */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1e90ff;
+}
+
+.section {
+    padding: 6rem 0;
+    margin-top: 8rem;  /* Adjusted margin-top to accommodate the new header height */
+}
+
+.bg-light {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: transparent;
+    color: #fff;
+}
+/* #121212 */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ---- */
+#map {
+    height: 600px;
+    margin-top: 4rem; /* Adjust based on header height */
+}
+
+.leaflet-container {
+    background: #fff;
+}
+
+/* ---- */
+
+h1, h2 {
+    color: #1e90ff;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p {
+    color: #ccc;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p1 {
+    color: #181616;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-media a {
+    color: #1e90ff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+social-media a:hover {
+    color: #0056b3;
+}
