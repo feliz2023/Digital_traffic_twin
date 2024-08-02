@@ -67,15 +67,28 @@ nav ul li a:hover {
 }
 
 .bg-dark {
-    background-color: #121212;
+    background-color: transparent;
     color: #fff;
 }
+
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
+
+/* ---- */
+#map {
+    height: 600px;
+    margin-top: 4rem; /* Adjust based on header height */
+}
+
+.leaflet-container {
+    background: #fff;
+}
+
+/* ---- */
 
 h1, h2 {
     color: #1e90ff;
@@ -161,4 +174,14 @@ footer .container {
 
 social-media a:hover {
     color: #0056b3;
+}
+
+
+.leaflet-control-geocoder-form input {
+    color: #000;
+    background-color: #fff;
+}
+
+.leaflet-control-geocoder-form input::placeholder {
+    color: #888;
 }
