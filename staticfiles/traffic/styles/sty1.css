@@ -78,28 +78,6 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-/* team members */
-
-.team-member {
-    margin-bottom: 2rem; /* Space between team members */
-    text-align: center; /* Center-align content */
-}
-
-.team-member h3 {
-    color: #395775; /* Maintain consistent color scheme */
-    margin-bottom: 1rem;
-}
-
-.team-member p {
-    color: #222222; /* Darker text color for better readability */
-    margin-bottom: 0.5rem;
-}
-
-
- /*  --- */
-
-
-
 /* ---- */
 #map {
     height: 600px;
